@@ -1,5 +1,6 @@
 # vm-import-ec2
 A script that can be used to import VMs at scale using EC2
+
 The `import.py` script is designed to import VMware virtual machine disk files (VMDK) from an Amazon S3 bucket and create Amazon Machine Images (AMIs) from them. It then launches Amazon Elastic Compute Cloud (EC2) instances using the newly created AMIs. Here's a breakdown of what the script does:
 
 1. It imports the necessary Python modules, including `os`, `time`, `threading`, and `boto3` (the AWS SDK for Python).
